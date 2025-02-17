@@ -41,7 +41,7 @@ export default function Home() {
           <CustomButton
             isLoading={false}
             title="Continue with Email"
-            handlePress={() => router.push("/register")}
+            handlePress={() => router.push("/login")}
             containerStyles="w-full mt-7"
           />
         </View>
